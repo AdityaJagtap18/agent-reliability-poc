@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+local_state/
+
+# build artefacts
+*.egg-info/
+build/
+dist/
+
+# uv writes this on `uv run`; it locks nothing useful here because the
+# dependencies live in requirements.txt rather than pyproject.toml
+uv.lock

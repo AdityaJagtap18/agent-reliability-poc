@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Reliability Demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "reliability_lab.demo",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "Azure Demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "reliability_lab.azure_demo",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
